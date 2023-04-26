@@ -1,0 +1,38 @@
+.social-media-container {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-media-container h2 {
+    text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px; /* set a max-width to prevent the form from getting too wide on larger screens */
+  margin: 0 auto; /* center the form horizontally */
+}
+
+.input-container {
+  flex-basis: calc(
+    50% - 20px
+  ); /* each input container should take up 50% of the available width minus some margin */
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
